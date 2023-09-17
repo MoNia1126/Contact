@@ -91,8 +91,8 @@ class _ContactScreenState extends State<ContactScreen> {
                           phones[counter] = phoneController.text;
                           visible[counter] = isVisible;
                           counter += 1;
-                          nameController.text = "";
-                          phoneController.text = "";
+                          // nameController.text="";
+                          // phoneController.text="";
                           setState(() {});
                         }
                       },
